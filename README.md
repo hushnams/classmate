@@ -28,7 +28,7 @@ for user in users:
 
 
 
-#possible use for this activtiy
+## possible use for this activtiy
 def favorite_food_name():
     mydict = dict()
     while True:
