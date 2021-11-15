@@ -56,3 +56,35 @@ for x in range(3):
   pupils_dictionary[new_key] = new_age
     
 print(pupils_dictionary)
+
+
+
+
+
+
+##new project
+greetings = "Welcome to the Yes or No Issue Polling App"
+
+print(greetings)
+issue = str(input("What is the yes or no issue you will be voting on today: "))
+voters = int(input("What is the number of voters you will allow on the issue: "))
+passWord = input("Enter a password forr the polling results: ")
+voters_dictionary = {}
+
+
+for i in range(voters):
+    print("\nVoter " + str(i+1))
+    
+    names = input("Enter your full name: ")
+    print("Here is our issue: " + issue)
+    votes = input("What do you think... yes or no: ")
+    print("Thankyou " + names +  "! Your vote of " + votes + " has been recorded.")
+    voters_dictionary[names] = votes
+    
+    
+    
+
+print("\nThe following " + str(voters) + " people voted:" )
+print(voters_dictionary)
+for voter in voters:
+    print(voters_dictionary)
